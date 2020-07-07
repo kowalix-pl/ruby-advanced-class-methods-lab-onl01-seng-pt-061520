@@ -44,8 +44,6 @@ class Song
     song.name = name
     song.artist_name = artist_name
     song 
-    # binding.pry
-  # end 
   end 
   
   def Song.create_from_filename(filename)
